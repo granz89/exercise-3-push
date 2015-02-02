@@ -139,6 +139,32 @@ h1 {
     right: auto;
   }
   
+.navigation ul{
+  @include zero;
+  right:0;
+  margin-top: -4em;
+  position: fixed;
+  li{
+    list-style-type: none;
+    a{
+      display: block;
+      padding: .5em 1em;
+      text-align: center;
+      border-bottom: 1px solid $accent;
+      text-decoration: none;
+      background-color: $secondary;
+      color: $text-color;
+    }
+    &:first-child a{
+      border-top: 1px solid $accent;
+    }
+  }
+}
+
+main {
+  margin:60em;
+}
+
 }
 
 

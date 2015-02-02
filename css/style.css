@@ -194,4 +194,31 @@ h1 {
   .slide-menu {
     position: static;
     right: auto; }
+
+  /* line 142, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-3-push/scss/components/main */
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    margin-top: -4em;
+    position: fixed; }
+    /* line 147, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-3-push/scss/components/main */
+    .navigation ul li {
+      list-style-type: none; }
+      /* line 149, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-3-push/scss/components/main */
+      .navigation ul li a {
+        display: block;
+        padding: 0.5em 1em;
+        text-align: center;
+        border-bottom: 1px solid #FFE699;
+        text-decoration: none;
+        background-color: #FFD65C;
+        color: #ffffff; }
+      /* line 158, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-3-push/scss/components/main */
+      .navigation ul li:first-child a {
+        border-top: 1px solid #FFE699; }
+
+  /* line 164, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-3-push/scss/components/main */
+  main {
+    margin: 60em; }
  }
