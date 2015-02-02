@@ -19,7 +19,8 @@ html {
 
 
 body{
-  font-family: sans-serif;
+  font-family: $text-family;
+  background-color:$background;
   @include zero;
 
   // Hides close button if there is no js
@@ -33,6 +34,10 @@ body{
 header {
   padding: 0 1em;
   position: relative;
+}
+
+h1 {
+  color: $text-color;
 }
 
 .toggle-btn {
@@ -50,11 +55,13 @@ header {
       display: block;
       padding: .5em 1em;
       text-align: center;
-      border-bottom: 1px solid $light-grey;
+      border-bottom: 1px solid $accent;
       text-decoration: none;
+      background-color: $secondary;
+      color: $text-color;
     }
     &:first-child a{
-      border-top: 1px solid $light-grey;
+      border-top: 1px solid $accent;
     }
   }
 }
